@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-04T01:27:33 MSK" name="Surefire suite" finished-at="2022-06-04T01:28:24 MSK" duration-ms="50720">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerTest@27e32fe4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-04T01:27:33 MSK" name="Surefire test" finished-at="2022-06-04T01:28:24 MSK" duration-ms="50720">
+      <class name="RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerTest@27e32fe4]" started-at="2022-06-04T01:27:33 MSK" name="setUpClass" finished-at="2022-06-04T01:27:36 MSK" duration-ms="2717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4584304]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerTest@27e32fe4]" started-at="2022-06-04T01:27:36 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-04T01:28:23 MSK" duration-ms="47659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Найдем самые дорогие товары на авито"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Поиск на авито"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerTest@27e32fe4]" started-at="2022-06-04T01:28:24 MSK" name="tearDownClass" finished-at="2022-06-04T01:28:24 MSK" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- RunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
